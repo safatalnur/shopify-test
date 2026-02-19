@@ -57,6 +57,9 @@
         "show_text_below": false
       }
     },
+    "basic_text": {
+      "type": "basic-text"
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -299,6 +302,7 @@
   },
   "order": [
     "image_banner",
+    "basic_text",
     "rich_text",
     "featured_collection",
     "collage",
