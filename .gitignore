@@ -1,0 +1,22 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependencies and Build Artifacts
+node_modules/
+dist/
+build/
+
+# Environment and Tool-specific
+.env
+.shopify-cli.yml
+config/tunnel.pid
+/app/assets/builds/*
+
+# Shopify specific (optional - handle with team agreement)
+# config/settings_data.json
