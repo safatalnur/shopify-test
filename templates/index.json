@@ -58,7 +58,19 @@
       }
     },
     "basic_text": {
-      "type": "basic-text"
+      "type": "basic-text",
+      "blocks": {
+        "text_xkLqtA": {
+          "type": "text",
+          "settings": {
+            "text_content": "Hello World, I am testing settings_data.json avoid in git now"
+          }
+        }
+      },
+      "block_order": [
+        "text_xkLqtA"
+      ],
+      "settings": {}
     },
     "rich_text": {
       "type": "rich-text",
