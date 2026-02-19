@@ -1,0 +1,33 @@
+{% schema %}
+{
+    "name": "Basic Text Section",
+    "blocks": [
+        {
+            "type": "text",
+            "name": "Text Block",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text_content",
+                    "label": "Text",
+                    "default": "Hello World"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Basic Text Section",
+            "category": "Custom"
+        }
+    ]
+}
+{% endschema %}
+
+<div>
+    {% for block in section.blocks %}
+        <div {{ block.shopify_attributes }}>
+            {{ block.settings.text_content }}
+        </div>
+    {% endfor %}
+</div>
