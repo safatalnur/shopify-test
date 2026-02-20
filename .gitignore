@@ -16,7 +16,6 @@ build/
 .env
 .shopify-cli.yml
 config/tunnel.pid
-config/settings_data.json
 /app/assets/builds/*
 
 # Shopify specific (optional - handle with team agreement)
