@@ -6,6 +6,10 @@ theme = "153815679023"
 store = "safat-test.myshopify.com"
 theme = "127783108655"
 
+[environments.main]
+store = "safat-test.myshopify.com"
+theme = "154613514287"
+
 [environments.default]
 store = "safat-test.myshopify.com"
 theme = "153815679023"
