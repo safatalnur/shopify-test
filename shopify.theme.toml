@@ -1,11 +1,15 @@
 [environments.staging]
 store = "safat-test.myshopify.com"
-theme = "153815679023"
+theme = "154614956079"
 
 [environments.production]
 store = "safat-test.myshopify.com"
-theme = "127783108655"
+theme = "154614988847"
+
+[environments.content]
+store = "safat-test.myshopify.com"
+theme = "153854509103"
 
 [environments.default]
 store = "safat-test.myshopify.com"
-theme = "153815679023"
+theme = "154614956079"
